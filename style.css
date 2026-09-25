@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    height: 100vh;
+     width: 100vw;
+     justify-content: center;
+     align-items: center;
+}
+#main{
+    display: flex;
+    
+    background-color: palegreen;
+}
+#main ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+#main .human{
+    display: flex;
+    border: 10px solid #800080;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.human button{
+    background-color: #800080;
+    color: white;
+}
+#main .computer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 204px;
+    height: 77px;
+    border: 10px solid #800080;
+}
+.computer #computerChoice{
+    padding-bottom: 30px;
+}
